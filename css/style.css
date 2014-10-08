@@ -1,0 +1,37 @@
+body{
+    font-family: Helvetica, Arial, Times;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+a:hover{
+    color:orange;
+}
+.hidden{
+    display: none;
+}
+.entry{
+    border:1px solid black;
+    padding:1em;
+    margin:1em 2em;
+    color:black;
+}
+.entry div{
+    margin: 0 1em;
+    display:inline-block;
+}
+.entry div.score{
+    width:4em;
+    text-align: right;
+    font-size:1.5em;
+}
+.entry div.title{
+    width:20em;
+}
+.entry div.author, .entry div.date{
+    font-size:.8em;
+}
+.entry div.author{
+    font-style: italic;
+}
