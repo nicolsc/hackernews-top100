@@ -5,9 +5,6 @@ a{
     text-decoration:none;
     color:black;
 }
-a:hover{
-    color:orange;
-}
 .hidden{
     display: none;
 }
@@ -20,6 +17,10 @@ a:hover{
 .entry div{
     margin: 0 1em;
     display:inline-block;
+}
+.entry:hover{
+    background-color:orange;
+    color:#000;
 }
 .entry div.score{
     width:4em;
